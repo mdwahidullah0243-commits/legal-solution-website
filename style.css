@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Poppins;
+    src: url();
+}
+@font-face {
+    font-family: 'EB Garamond';
+    src: url();
+}
+
+.font-poppins {
+    font-family: Poppins;
+}
+.font-eb-garamond {
+    font-family: 'EB Garamond';
+}
