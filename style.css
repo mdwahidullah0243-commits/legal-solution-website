@@ -1,15 +1,113 @@
+/* Font => Poppins */
+
 @font-face {
-    font-family: Poppins;
-    src: url();
+    font-family: 'Poppins-Regular';
+    src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 @font-face {
-    font-family: 'EB Garamond';
-    src: url();
+    font-family: 'poppins-semibold';
+    src: url('./assets/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+.font-poppins-regular {
+    font-family: 'Poppins-Regular';
+}
+.font-poppins-semibold {
+    font-family: 'poppins-semibold';
 }
 
-.font-poppins {
-    font-family: Poppins;
+/* Font => EB-Garamond */
+
+@font-face {
+    font-family: 'EB-Garamond-Regular';
+    src: url(./assets/fonts/EB-Garamond/EBGaramond-Regular.ttf);
 }
-.font-eb-garamond {
-    font-family: 'EB Garamond';
+
+@font-face {
+    font-family: 'EB-Garamond-ExtraBold';
+    src: url('./assets/fonts/EB-Garamond/EBGaramond-ExtraBold.ttf');
+}
+
+.font-eb-garamond-regular {
+    font-family: 'EB-Garamond-Regular';
+}
+.font-eb-garamond-ExtraBold {
+    font-family: 'EB-Garamond-ExtraBold';
+}
+
+
+/* Responsive Origin */
+
+/* Range - 01 */
+
+@media screen and (min-width: 460px) and (max-width: 559px) {
+    .banner {
+        min-height: 250px;
+    }
+    .banner-content-container {
+        row-gap: 24px;
+        margin-top: 24px;
+    }
+    .banner-title {
+        font-size: 24px;
+    }
+    [type="search"] {
+        padding-inline-end: 50px;
+        font-size: 14px;
+    }
+    .banner-btn {
+        padding-inline: 16px;
+        letter-spacing: 0.1rem;
+    }
+}
+
+/* Range - 02 */
+
+@media screen and (min-width: 560px) and (max-width: 639px) {
+    .banner {
+        min-height: 300px;
+    }
+    .banner-content-container {
+        row-gap: 28px;
+        margin-top: 28px;
+    }
+    .banner-title {
+        font-size: 32px;
+    }
+    [type="search"] {
+        padding-inline-end: 70px;
+        padding-block: 14px;
+        font-size: 16px;
+    }
+    .banner-btn {
+        padding-inline: 16px;
+        font-size: 16px;
+        letter-spacing: 0.1rem;
+    }
+}
+
+/* Range - 03 */
+
+@media screen and (min-width: 1200px) {
+    .banner {
+        min-height: 600px;
+    }
+    .banner-content-container {
+        row-gap: 70px;
+        margin-top: 120px;
+        padding-inline: 120px;
+    }
+    .banner-title {
+        font-size: 72px;
+        line-height: 4rem;
+    }
+    [type="search"] {
+        padding-inline-end: 140px;
+        padding-block: 14px;
+        font-size: 16px;
+    }
+    .banner-btn {
+        padding-inline: 16px;
+        font-size: 16px;
+        letter-spacing: 0.1rem;
+    }
 }
