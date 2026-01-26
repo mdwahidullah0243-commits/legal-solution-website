@@ -45,7 +45,7 @@
     }
     .banner-content-container {
         row-gap: 24px;
-        margin-top: 24px;
+        padding-top: 24px;
     }
     .banner-title {
         font-size: 24px;
@@ -68,7 +68,7 @@
     }
     .banner-content-container {
         row-gap: 28px;
-        margin-top: 28px;
+        padding-top: 28px;
     }
     .banner-title {
         font-size: 32px;
@@ -93,7 +93,7 @@
     }
     .banner-content-container {
         row-gap: 70px;
-        margin-top: 120px;
+        padding-top: 120px;
         padding-inline: 120px;
     }
     .banner-title {
