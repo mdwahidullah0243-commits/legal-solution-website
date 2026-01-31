@@ -40,6 +40,8 @@
 /* Range - 01 */
 
 @media screen and (min-width: 460px) and (max-width: 559px) {
+
+    /* Section => [Banner] */
     .banner {
         min-height: 250px;
     }
@@ -58,11 +60,19 @@
         padding-inline: 16px;
         letter-spacing: 0.1rem;
     }
+
+    /* Section => [Legal-Practice] */
+
+    .legal-practice-title {
+        font-size: 1.875rem;
+    }
 }
 
 /* Range - 02 */
 
 @media screen and (min-width: 560px) and (max-width: 639px) {
+
+    /* Section => [Banner] */
     .banner {
         min-height: 300px;
     }
@@ -83,6 +93,17 @@
         font-size: 16px;
         letter-spacing: 0.1rem;
     }
+
+    /* Section => [Legal-Practice] */
+
+    .legal-practice-title {
+        font-size: 2.1rem;
+    }
+
+    .legal-practice-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 /* Range - 03 */
@@ -109,5 +130,10 @@
         padding-inline: 16px;
         font-size: 16px;
         letter-spacing: 0.1rem;
+    }
+
+    .legal-practice-description {
+        font-size: 1.1rem;
+        line-height: 28px;
     }
 }
