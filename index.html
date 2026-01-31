@@ -17,23 +17,37 @@
     <header class="">
 
         <!-- Section => [Navbar] -->
-        <nav class="w-[91vw] lg:w-[80vw] mx-auto mt-5 flex justify-between items-center">
+        <nav class="
+            w-[91vw] lg:w-[80vw] 
+            mx-auto mt-5 
+            flex justify-between items-center
+        ">
 
             <!-- brand logo -->
             <div class="">
-                <img class="w-[120px] lg:w-auto" src="./assets/images/logo2.png" alt="brand logo">
+                <img 
+                class="w-[120px] lg:w-auto" 
+                src="./assets/images/logo2.png" alt="brand logo">
             </div>
 
             <!-- nav menu -->
             <div class="relative group mt-3">
+
                 <!-- hamburger icon -->
                 <button class="cursor-pointer md:hidden">
                     <img class="" src="./assets/images/black-hamburger.png" alt="">
                 </button>
 
                 <!-- list item -->
-                <ul
-                    class="absolute right-0 top-[80%] invisible opacity-0 scale-y-0 origin-top transition-all duration-300 ease-linear group-hover:visible group-hover:scale-y-100 group-hover:opacity-100 bg-[#101D18] text-[#C2CECB] rounded-lg pb-2 md:visible md:opacity-100 md:static md:scale-y-100 md:bg-transparent md:flex md:justify-between md:items-center md:max-lg:gap-x-3 md:text-[#707070] lg:gap-x-5">
+                <ul class="
+                    absolute right-0 top-[80%] 
+                    invisible opacity-0 scale-y-0 origin-top 
+                    transition-all duration-300 ease-linear 
+                    group-hover:visible group-hover:scale-y-100 group-hover:opacity-100 
+                    bg-[#101D18] text-[#C2CECB] 
+                    rounded-lg pb-2 
+                    md:visible md:opacity-100 md:static md:scale-y-100 md:bg-transparent md:flex md:justify-between md:items-center md:max-lg:gap-x-3 md:text-[#707070] lg:gap-x-5
+                ">
                     <li
                         class="mx-2 py-2 border-b w-[120px] font-medium hover:bg-[#193129] hover:cursor-pointer md:mx-0 md:py-0 md:border-none md:w-auto md:font-normal md:hover:bg-transparent md:flex md:items-center md:gap-x-0.5 md:hover:text-[#02d7fd]">
                         <span>Home</span>
@@ -73,11 +87,18 @@
                     class="bg-[#B68C5A] px-7 py-5 text-[#FFFFFF] text-lg font-semibold rounded-lg md:max-lg:px-5 md:max-lg:py-3 hover:bg-[#0f0e0e] hover:text-[#0075fc] cursor-pointer transition-all duration-300 ease-linear">Free
                     Consultation</button>
             </div>
+
         </nav>
 
         <!-- Section => [Banner] -->
-        <section
-            class="banner mt-16 w-[91vw] lg:w-[80vw] mx-auto bg-[url('./assets/images/banner.png')] bg-no-repeat min-h-[200px] bg-contain sm:min-h-[350px] md:min-h-[450px] lg:min-h-[530px]">
+        <section class="
+            banner mt-16 w-[91vw] lg:w-[80vw] mx-auto 
+            bg-[url('./assets/images/banner.png')] 
+            bg-no-repeat 
+            min-h-[200px] 
+            bg-contain 
+            sm:min-h-[350px] md:min-h-[450px] lg:min-h-[530px]
+        ">
 
             <div
                 class="banner-content-container px-4 flex flex-col items-center gap-y-3 sm:gap-y-4 md:gap-y-8 lg:gap-y-12 sm:pt-16 md:pt-18 lg:pt-24 md:px-16 lg:px-24">
@@ -112,9 +133,9 @@
 
             <div class="text-center">
                 <h2
-                    class="legal-practice-title font-eb-garamond-ExtraBold text-2xl text-[#414040] sm:text-4xl md:text-[2.5rem]">
+                    class="heading-title font-eb-garamond-ExtraBold text-2xl text-[#414040] sm:text-4xl md:text-[2.5rem]">
                     The Legal Practice Area</h2>
-                <p class="legal-practice-description text-[#707070] text-xs/5 mt-4 sm:px-20 lg:px-40 md:text-base/7">
+                <p class="heading-description text-[#707070] text-xs/5 mt-5 sm:px-20 lg:px-40 md:text-base/7">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour.
                 </p>
@@ -191,7 +212,31 @@
             </div>
 
         </article>
-        
+
+        <!-- Section => [Client] -->
+        <section class="w-[91vw] lg:w-[80vw] mx-auto">
+
+            <div class="text-center">
+                <h2 class="heading-title font-eb-garamond-ExtraBold text-2xl text-[#414040] sm:text-4xl md:text-[2.5rem]">What Our Client Say</h2>
+                <p class="heading-description text-[#707070] text-xs/5 mt-5 sm:px-20 lg:px-40 md:text-base/7">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                </p>
+            </div>
+
+            <div class="
+                border border-amber-600 
+                client-banner
+                min-h-[200px]
+                sm:min-h-[330px] md:min-h-[450px] lg:min-h-[520px]
+                bg-[url('./assets/images/Rectangle-5.png'),url('./assets/images/banner.png')]
+                bg-size-[contain,contain]
+            "
+            style="background-repeat: no-repeat, no-repeat;
+            ">
+            </div>
+
+        </section>
+
     </main>
 </body>
 

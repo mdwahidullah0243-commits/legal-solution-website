@@ -63,8 +63,14 @@
 
     /* Section => [Legal-Practice] */
 
-    .legal-practice-title {
+    .heading-title {
         font-size: 1.875rem;
+    }
+
+    /* Section => [Client] */
+    
+    .client-banner {
+        min-height: 250px;
     }
 }
 
@@ -96,12 +102,18 @@
 
     /* Section => [Legal-Practice] */
 
-    .legal-practice-title {
+    .heading-title {
         font-size: 2.1rem;
     }
 
     .legal-practice-box {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Section => [Client] */
+    
+    .client-banner {
+        min-height: 280px;
     }
 
 }
@@ -132,7 +144,9 @@
         letter-spacing: 0.1rem;
     }
 
-    .legal-practice-description {
+    /* Section => [Legal-Practice] */
+
+    .heading-description {
         font-size: 1.1rem;
         line-height: 28px;
     }
