@@ -4,13 +4,16 @@
     font-family: 'Poppins-Regular';
     src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
 }
+
 @font-face {
     font-family: 'poppins-semibold';
     src: url('./assets/fonts/Poppins/Poppins-SemiBold.ttf');
 }
+
 .font-poppins-regular {
     font-family: 'Poppins-Regular';
 }
+
 .font-poppins-semibold {
     font-family: 'poppins-semibold';
 }
@@ -30,6 +33,7 @@
 .font-eb-garamond-regular {
     font-family: 'EB-Garamond-Regular';
 }
+
 .font-eb-garamond-ExtraBold {
     font-family: 'EB-Garamond-ExtraBold';
 }
@@ -45,17 +49,21 @@
     .banner {
         min-height: 250px;
     }
+
     .banner-content-container {
         row-gap: 24px;
         padding-top: 24px;
     }
+
     .banner-title {
         font-size: 24px;
     }
+
     [type="search"] {
         padding-inline-end: 50px;
         font-size: 14px;
     }
+
     .banner-btn {
         padding-inline: 16px;
         letter-spacing: 0.1rem;
@@ -68,35 +76,55 @@
     }
 
     /* Section => [Client] */
-    
+
     .client-banner {
         min-height: 250px;
         align-items: start;
         padding-inline: 24px;
         padding-block: 16px;
     }
+
     .white-arrow {
         display: none;
     }
+
     .client-profile {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         column-gap: 5px;
     }
+
     .profile {
         grid-column: span 5;
     }
+
     .profile h2 {
         font-size: 18px;
         margin-top: 12px;
     }
+
     .profile h3 {
         margin-top: 5px;
     }
+
     .profile-description {
         grid-column: span 7;
         text-align: justify;
         font-size: 10px;
+    }
+
+    .question-title {
+        font-size: 30px;
+    }
+
+    .question-description {
+        padding-inline: 40px;
+        font-size: 14px;
+    }
+
+    .question-box {
+        flex-direction: column;
+        row-gap: 60px;
     }
 }
 
@@ -108,18 +136,22 @@
     .banner {
         min-height: 300px;
     }
+
     .banner-content-container {
         row-gap: 28px;
         padding-top: 28px;
     }
+
     .banner-title {
         font-size: 32px;
     }
+
     [type="search"] {
         padding-inline-end: 70px;
         padding-block: 14px;
         font-size: 16px;
     }
+
     .banner-btn {
         padding-inline: 16px;
         font-size: 16px;
@@ -137,30 +169,47 @@
     }
 
     /* Section => [Client] */
-    
+
     .client-banner {
         min-height: 280px;
         align-items: start;
         padding-inline: 24px;
         padding-block: 16px;
     }
+
     .white-arrow {
         display: none;
     }
+
     .client-profile {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         column-gap: 8px;
     }
+
     .profile {
         grid-column: span 5;
     }
+
     .profile-description {
         grid-column: span 7;
         text-align: justify;
         font-size: 12px;
     }
 
+    .question-title {
+        font-size: 30px;
+    }
+
+    .question-description {
+        padding-inline: 40px;
+        font-size: 14px;
+    }
+
+    .question-box {
+        flex-direction: column;
+        row-gap: 60px;
+    }
 }
 
 /* Range - 03 */
@@ -169,20 +218,24 @@
     .banner {
         min-height: 600px;
     }
+
     .banner-content-container {
         row-gap: 70px;
         padding-top: 120px;
         padding-inline: 120px;
     }
+
     .banner-title {
         font-size: 72px;
         line-height: 4rem;
     }
+
     [type="search"] {
         padding-inline-end: 140px;
         padding-block: 14px;
         font-size: 16px;
     }
+
     .banner-btn {
         padding-inline: 16px;
         font-size: 16px;
