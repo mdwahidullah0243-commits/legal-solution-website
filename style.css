@@ -141,6 +141,13 @@
     .contact-card {
         border: none;
     }
+
+    .footer {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        padding-inline: 30px;
+
+    }
 }
 
 /* Range - 02 */
@@ -235,6 +242,13 @@
 
     .contact-card-box {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        padding-inline: 40px;
+
     }
 }
 
