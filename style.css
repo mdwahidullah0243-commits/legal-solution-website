@@ -71,6 +71,32 @@
     
     .client-banner {
         min-height: 250px;
+        align-items: start;
+        padding-inline: 24px;
+        padding-block: 16px;
+    }
+    .white-arrow {
+        display: none;
+    }
+    .client-profile {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 5px;
+    }
+    .profile {
+        grid-column: span 5;
+    }
+    .profile h2 {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .profile h3 {
+        margin-top: 5px;
+    }
+    .profile-description {
+        grid-column: span 7;
+        text-align: justify;
+        font-size: 10px;
     }
 }
 
@@ -114,6 +140,25 @@
     
     .client-banner {
         min-height: 280px;
+        align-items: start;
+        padding-inline: 24px;
+        padding-block: 16px;
+    }
+    .white-arrow {
+        display: none;
+    }
+    .client-profile {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 8px;
+    }
+    .profile {
+        grid-column: span 5;
+    }
+    .profile-description {
+        grid-column: span 7;
+        text-align: justify;
+        font-size: 12px;
     }
 
 }
